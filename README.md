@@ -1,6 +1,11 @@
-Execute the script by providing the name of the device as an argument.
+## Requirements
+- xorg-xinput
 
-To find the name of your device, execute the following command in your terminal:
-\```
+Execute the script by providing the name of the device as an argument.
+``` Bash
+./toggle_device.sh "Your_Device_Name"
+```
+To find the name of your device:
+``` Bash
 xinput --list
-\```
+```
